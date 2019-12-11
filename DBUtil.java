@@ -12,7 +12,7 @@ import java.util.List;
 
 import org.omg.CORBA.PUBLIC_MEMBER;
 
-public class DBUtil {
+public class DBUtil {   
 	private static final String url = "jdbc:mysql://localhost:3306/userDB?characterEncoding=utf8";//连接对象
 	private static final String DRIVER = "com.mysql.jdbc.Driver";//加载驱动
 	private static final String username = "root"; 
